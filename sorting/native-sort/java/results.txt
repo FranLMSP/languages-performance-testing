@@ -1,0 +1,15 @@
+Arrays.sort() method in Java (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 77 ms
+Test N° 2 time: 81 ms
+Test N° 3 time: 80 ms
+Test N° 4 time: 82 ms
+Test N° 5 time: 68 ms
+Test N° 6 time: 90 ms
+Test N° 7 time: 76 ms
+Test N° 8 time: 73 ms
+Test N° 9 time: 82 ms
+Test N° 10 time: 82 ms
+
+Tested 10 times
+Average: 79 ms

@@ -1,0 +1,15 @@
+Bubble Sort algorithm in Python 3 (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 606967 ms
+Test N° 2 time: 628892 ms
+Test N° 3 time: 567760 ms
+Test N° 4 time: 550903 ms
+Test N° 5 time: 553019 ms
+Test N° 6 time: 547613 ms
+Test N° 7 time: 576012 ms
+Test N° 8 time: 611082 ms
+Test N° 9 time: 650630 ms
+Test N° 10 time: 538300 ms
+
+Tested 10 times
+Average: 583117 ms

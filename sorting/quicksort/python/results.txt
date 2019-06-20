@@ -1,0 +1,16 @@
+Quicksort algorithm in Python 3 (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 181 ms
+Test N° 2 time: 173 ms
+Test N° 3 time: 163 ms
+Test N° 4 time: 173 ms
+Test N° 5 time: 166 ms
+Test N° 6 time: 174 ms
+Test N° 7 time: 176 ms
+Test N° 8 time: 168 ms
+Test N° 9 time: 167 ms
+Test N° 10 time: 164 ms
+
+Tested 10 times
+Total time: 1705 ms
+Average: 170 ms

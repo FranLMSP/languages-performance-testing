@@ -1,0 +1,16 @@
+Quicksort algorithm in Node.js (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 74 ms
+Test N° 2 time: 70 ms
+Test N° 3 time: 67 ms
+Test N° 4 time: 69 ms
+Test N° 5 time: 66 ms
+Test N° 6 time: 68 ms
+Test N° 7 time: 66 ms
+Test N° 8 time: 67 ms
+Test N° 9 time: 70 ms
+Test N° 10 time: 70 ms
+
+Tested 10 times
+Total time: 687 ms
+Average: 68 ms

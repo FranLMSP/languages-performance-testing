@@ -1,0 +1,16 @@
+Quicksort in C++ (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 5 ms
+Test N° 2 time: 5 ms
+Test N° 3 time: 5 ms
+Test N° 4 time: 5 ms
+Test N° 5 time: 6 ms
+Test N° 6 time: 5 ms
+Test N° 7 time: 5 ms
+Test N° 8 time: 5 ms
+Test N° 9 time: 5 ms
+Test N° 10 time: 5 ms
+
+Tested 10 times
+Total time: 51 ms
+Average: 5 ms

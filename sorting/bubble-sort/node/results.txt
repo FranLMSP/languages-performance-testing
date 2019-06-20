@@ -1,0 +1,15 @@
+Bubble Sort algorithm in Node.js (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 8838 ms
+Test N° 2 time: 8761 ms
+Test N° 3 time: 8789 ms
+Test N° 4 time: 8911 ms
+Test N° 5 time: 9170 ms
+Test N° 6 time: 9477 ms
+Test N° 7 time: 8872 ms
+Test N° 8 time: 8847 ms
+Test N° 9 time: 9418 ms
+Test N° 10 time: 9460 ms
+
+Tested 10 times
+Average: 9054 ms

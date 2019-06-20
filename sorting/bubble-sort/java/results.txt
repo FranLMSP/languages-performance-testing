@@ -1,0 +1,15 @@
+Bubble Sort algorithm in Java (50000 indexes). Time in milliseconds
+
+Test N° 1 time: 6052 ms
+Test N° 2 time: 5955 ms
+Test N° 3 time: 5991 ms
+Test N° 4 time: 6009 ms
+Test N° 5 time: 5977 ms
+Test N° 6 time: 6018 ms
+Test N° 7 time: 5991 ms
+Test N° 8 time: 6078 ms
+Test N° 9 time: 6149 ms
+Test N° 10 time: 6130 ms
+
+Tested 10 times
+Average: 6035

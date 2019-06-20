@@ -13,3 +13,16 @@ In this repository i'm testing the performance of some languages with different 
 
 - Use Docker to test different versions of languages
 - Add more languages
+
+## results.txt files
+
+- results.txt files has the results of 10 tests made in my hardware
+
+## My hardware
+
+- Intel Core i5 4300m
+- 12gb RAM DD3
+
+## My OS
+
+- Ubuntu 19.04

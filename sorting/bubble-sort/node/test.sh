@@ -3,13 +3,15 @@ set -e;
 echo "Bubble Sort algorithm in Node.js (50000 indexes). Time in milliseconds" > results.txt;
 echo "" >> results.txt;
 
+docker pull node:lts
+
 total=0;
 count=0;
 for i in `seq 1 ${1:-10}`;
 do
     count=$((count+1));
     ts=$(date +%s%N);
-    node main.js;
+    docker run --rm -v $(pwd):/app -w /app node:lts node main.js;
     tt=$((($(date +%s%N) - $ts)/1000000));
     total=$((total+tt));
     echo "Test N° $count time: $tt ms" >> results.txt;

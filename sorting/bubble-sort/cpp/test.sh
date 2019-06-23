@@ -5,8 +5,11 @@ echo "" | tee -a results.txt;
 
 echo "" > docker.log; echo "" >> docker.error;
 
-docker pull gcc:latest 1> docker.log 2> docker.error
+echo "PULLING DOCKER IMAGE FOR GCC COMPILER";
+echo "";
+docker pull gcc:latest;
 docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app gcc:latest g++ -o main main.cpp -O3;
+echo "";
 
 total=0;
 count=0;
@@ -24,3 +27,5 @@ echo "Tested $count times" | tee -a results.txt;
 echo "Total time: $total ms"| tee -a results.txt;
 average=$((total/count));
 echo "Average: $average ms"| tee -a results.txt;
+echo "";
+echo "";

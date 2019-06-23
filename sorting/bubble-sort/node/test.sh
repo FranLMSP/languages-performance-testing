@@ -5,7 +5,10 @@ echo "" | tee -a results.txt;
 
 echo "" > docker.log; echo "" >> docker.error;
 
-docker pull node:lts 1> docker.log 2> docker.error
+echo "PULLING DOCKER IMAGE FOR NODE.JS LTS";
+echo "";
+docker pull node:lts;
+echo "";
 
 total=0;
 count=0;
@@ -23,3 +26,5 @@ echo "Tested $count times" | tee -a results.txt;
 echo "Total time: $total ms"| tee -a results.txt;
 average=$((total/count));
 echo "Average: $average ms"| tee -a results.txt;
+echo "";
+echo "";

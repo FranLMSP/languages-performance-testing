@@ -1,0 +1,4 @@
+lts: Pulling from library/node
+Digest: sha256:faf7dd4a26460ac70e3fe591752548003f0f38b3d4021ad2496accf73685219d
+Status: Image is up to date for node:lts
+docker.io/library/node:lts

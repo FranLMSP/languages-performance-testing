@@ -1,9 +1,11 @@
 #!/bin/bash
 set -e;
-echo "Bubble Sort algorithm in Node.js (50000 indexes). Time in milliseconds" > results.txt;
-echo "" >> results.txt;
+echo "Bubble Sort algorithm in Node.js (LTS) (50000 indexes). Time in milliseconds" | tee results.txt;
+echo "" | tee -a results.txt;
 
-docker pull node:lts
+echo "" > docker.log; echo "" >> docker.error;
+
+docker pull node:lts 1> docker.log 2> docker.error
 
 total=0;
 count=0;
@@ -14,12 +16,10 @@ do
     docker run --rm -v $(pwd):/app -w /app node:lts node main.js;
     tt=$((($(date +%s%N) - $ts)/1000000));
     total=$((total+tt));
-    echo "Test N° $count time: $tt ms" >> results.txt;
+    echo "Test N° $count time: $tt ms" | tee -a results.txt;
 done
-echo "" >> results.txt;
-echo "Tested $count times" >> results.txt;
-echo "Total time: $total ms" >> results.txt;
+echo "" | tee -a results.txt;
+echo "Tested $count times" | tee -a results.txt;
+echo "Total time: $total ms"| tee -a results.txt;
 average=$((total/count));
-echo "Average: $average ms" >> results.txt;
-
-cat results.txt;
+echo "Average: $average ms"| tee -a results.txt;

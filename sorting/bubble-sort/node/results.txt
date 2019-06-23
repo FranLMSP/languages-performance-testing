@@ -1,16 +1,16 @@
-Bubble Sort algorithm in Node.js (50000 indexes). Time in milliseconds
+Bubble Sort algorithm in Node.js (LTS) (50000 indexes). Time in milliseconds
 
-Test N° 1 time: 9611 ms
-Test N° 2 time: 9700 ms
-Test N° 3 time: 9758 ms
-Test N° 4 time: 9796 ms
-Test N° 5 time: 9733 ms
-Test N° 6 time: 10186 ms
-Test N° 7 time: 11181 ms
-Test N° 8 time: 10203 ms
-Test N° 9 time: 11305 ms
-Test N° 10 time: 9882 ms
+Test N° 1 time: 12459 ms
+Test N° 2 time: 12966 ms
+Test N° 3 time: 13158 ms
+Test N° 4 time: 12216 ms
+Test N° 5 time: 9812 ms
+Test N° 6 time: 9660 ms
+Test N° 7 time: 9684 ms
+Test N° 8 time: 9677 ms
+Test N° 9 time: 10036 ms
+Test N° 10 time: 10139 ms
 
 Tested 10 times
-Total time: 101355 ms
-Average: 10135 ms
+Total time: 109807 ms
+Average: 10980 ms

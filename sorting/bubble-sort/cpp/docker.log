@@ -1,0 +1,4 @@
+latest: Pulling from library/gcc
+Digest: sha256:f46393c64e0e5a98aff814fec705582a08c3d8067196857910036ed324242ceb
+Status: Image is up to date for gcc:latest
+docker.io/library/gcc:latest
